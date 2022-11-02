@@ -176,3 +176,24 @@ h6 {
     justify-content: center;
     color: #fff;
 }
+@media(max-width: 768px) {
+    .main-container {
+        width: 360px;
+    }
+
+    .main-container .box .content {
+        width: 350px;
+        height: 310px;
+    }
+}
+
+@media(max-width: 377px) {
+    .main-container {
+        width: 300px;
+    }
+
+    .main-container .box .content {
+        width: 280px;
+        height: 310px;
+    }
+}
